@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# Ignore firebase config file
+/src/Components/FireBase.js
+
 # testing
 /coverage
 
