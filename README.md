@@ -2,7 +2,7 @@
 
 # Basic Firebase interaction using React
 
-This is a basic React project shown in Effi's Lesson 2 of Android 2 Course to test Sign In/Sign Up/Sign Out with Firebase Console
+This is a basic React project shown in Effi's Lessons of Android 2 Course to test FireBase using React Frontend.
 
 ## Available Scripts
 
