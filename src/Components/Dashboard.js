@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import MainScreen from "./MainScreen";
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from './FireBase';
 
@@ -32,7 +33,7 @@ function Dashboard(props) {
                 <div>
                     <h2> welcome {user.email} </h2>
                     <button onClick={handleSignOut}>Sign out </button>
-                    {/* <MainScreen /> */}
+                    {<MainScreen />}
                 </div>
             ) : (
                 <div>
