@@ -1,6 +1,6 @@
 # Liron4
 
-# Getting Started with Create React App
+# Basic Firebase interaction using React
 
 This is a basic React project shown in Effi's Lesson 2 of Android 2 Course to test Sign In/Sign Up/Sign Out with Firebase Console
 
@@ -38,7 +38,7 @@ To run this project, you need to set up Firebase and add your own Firebase crede
 3. Add a new web app to your project.
 4. Copy the Firebase configuration object.
 
-Replace the Firebase configuration in `src/Components/FireBase.js` with your own credentials:
+Add the Firebase configuration in a by creating a new file: `src/Components/FireBase.js` with your own credentials:
 
 ```javascript
 // filepath: [FireBase.js](http://_vscodecontentref_/0)
